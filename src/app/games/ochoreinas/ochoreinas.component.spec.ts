@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ImgGameComponent } from './img-game.component';
+import { OchoreinasComponent } from './ochoreinas.component';
 
-describe('ImgGameComponent', () => {
-  let component: ImgGameComponent;
-  let fixture: ComponentFixture<ImgGameComponent>;
+describe('OchoreinasComponent', () => {
+  let component: OchoreinasComponent;
+  let fixture: ComponentFixture<OchoreinasComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ImgGameComponent ]
+      declarations: [ OchoreinasComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ImgGameComponent);
+    fixture = TestBed.createComponent(OchoreinasComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
