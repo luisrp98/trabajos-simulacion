@@ -10,6 +10,7 @@ export class CardComponent implements OnInit {
 
   titulo: string = '';
   img: string = '';
+  link: string = '';
 
   ngOnInit() {
     this.setData(this.n);
@@ -20,10 +21,12 @@ export class CardComponent implements OnInit {
       case '0':
         this.titulo = 'mamawebo';
         this.img = 'assets/img/logoQueen.png';
+        this.link = 'ochoreinas';
         break;
       case '1':
         this.titulo = 'Juego de la vida';
         this.img = 'assets/img/logoHeart.png';
+        this.link = 'juegovida';
         break;
     }
   }
