@@ -19,13 +19,23 @@ export class CardComponent implements OnInit {
   setData(n: string) {
     switch (n) {
       case '0':
-        this.titulo = 'mamawebo';
+        this.titulo = '8 Reinas';
         this.img = 'assets/img/logoQueen.png';
         this.link = 'ochoreinas';
         break;
       case '1':
-        this.titulo = 'Juego de la vida';
+        this.titulo = 'Juego de la Vida';
         this.img = 'assets/img/logoHeart.png';
+        this.link = 'juegovida';
+        break;
+      case '2':
+        this.titulo = 'Juego del Caos';
+        this.img = 'assets/img/logoChaos.png';
+        this.link = 'juegocaos';
+        break;
+      case '3':
+        this.titulo = 'Fractal de Mandelbrot';
+        this.img = 'assets/img/logoFractal.png';
         this.link = 'juegovida';
         break;
     }
